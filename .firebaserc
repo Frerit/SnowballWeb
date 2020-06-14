@@ -1,0 +1,6 @@
+{
+  "projects": {
+    "prod": "snowballapp-84bc6",
+    "default": "snowballapp-84bc6"
+  }
+}
