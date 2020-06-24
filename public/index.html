@@ -1,225 +1,212 @@
-<!DOCTYPE HTML>
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Snowball</title>
+    <link href="https://fonts.googleapis.com/css?family=Heebo:400,700|Oxygen:700" rel="stylesheet">
+    <link rel="stylesheet" href="dist/css/style.css">
+    <script src="https://unpkg.com/scrollreveal@4.0.5/dist/scrollreveal.min.js"></script>
+</head>
+<body class="is-boxed has-animations">
+    <div class="body-wrap boxed-container">
+        <header class="site-header text-light">
+            <div class="container">
+                <div class="site-header-inner">
+                    <div class="brand header-brand">
+                        <h1 class="m-0">
+                            <a href="#">
+								<img class="header-logo-image" src="dist/images/logo.png" alt="Logo" width="10%">
+                            </a>
+                        </h1>
+                    </div>
+                </div>
+            </div>
+        </header>
 
-<html>
-	<head>
-		<title> </title>
-		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
-		<meta name="description" content="" />
-		<meta name="keywords" content="" />
-		<!--[if lte IE 8]><script src="css/ie/html5shiv.js"></script><![endif]-->
-		<script src="js/jquery.min.js"></script>
-		<script src="js/jquery.dropotron.min.js"></script>
-		<script src="js/jquery.scrollgress.min.js"></script>
-		<script src="js/jquery.scrolly.min.js"></script>
-		<script src="js/jquery.slidertron.min.js"></script>
-		<script src="js/skel.min.js"></script>
-		<script src="js/skel-layers.min.js"></script>
-		<script src="js/init.js"></script>
-		<noscript>
-			<link rel="stylesheet" href="css/skel.css" />
-			<link rel="stylesheet" href="css/style.css" />
-			<link rel="stylesheet" href="css/style-xlarge.css" />
-		</noscript>
-		<!--[if lte IE 9]><link rel="stylesheet" href="css/ie/v9.css" /><![endif]-->
-		<!--[if lte IE 8]><link rel="stylesheet" href="css/ie/v8.css" /><![endif]-->
-	</head>
-	<body class="landing">
-
-		<!-- Header -->
-			<header id="header" class="alt skel-layers-fixed">
-				<h1><a href="index.html">Snowball</span></a></h1>
-				<nav id="nav">
-					<ul>
-						<li><a href="index.html">Home</a></li>
-					</ul>
-				</nav>
-			</header>
-
-		<!-- Banner -->
-			<section id="banner">
-				<div class="inner">
-					<h2>Magna Aliquam</h2>
-					<p>Sed lorem ipsum sed dolor nullam adipiscing</p>
-					<ul class="actions">
-						<li><a href="#one" class="button big scrolly">Learn More</a></li>
-					</ul>
+        <main>
+            <section class="hero text-center text-light">
+				<div class="hero-bg"></div>
+				<div class="hero-particles-container">
+					<canvas id="hero-particles"></canvas>
 				</div>
-			</section>
+                <div class="container-sm">
+                    <div class="hero-inner">
+                    	<h1 class="hero-title mt-0">Snowball</h1>
+	                        <p class="hero-paragraph">Snowball is an application that was created with the aim of helping the community, where you can anonymously share your concerns about any topic.
+Something happened in your neighborhood? Do you need help with a specific situation? You can post it here and show the world what’s happening using evidence and possibly getting some recommendations.
+No matter how delicate can be what you post, your identity is never revealed.</p>
+						<div style="width: 100%; display: table;">
 
-		<!-- One -->
-			<section id="one" class="wrapper style1">
-				<div class="container">
-					<header class="major">
-						<h2>Lorem ipsum dolor</h2>
-						<p>Ipsum dolor tempus commodo turpis adipiscing adipiscing in tempor placerat<br />
-						sed amet accumsan enim lorem sem turpis ut. Massa amet erat accumsan curae<br />
-						blandit porttitor faucibus in nisl nisi volutpat massa mi non nascetur.</p>
-					</header>
-					<div class="slider">
-						<span class="nav-previous"></span>
-						<div class="viewer">
-							<div class="reel">
-								<div class="slide">
-									<img src="images/slide01.jpg" alt="" />
+	                        
+	                        <div style="display: table-row">
+	                        	<div style="width: 50.5%; display: table-cell;">
+	                        	<a 
+	                        	href="https://apps.apple.com/us/app/snowball-app/id1489651612" target="_blank"> <img src="dist/images/appstore.png" alt="iPhone store" >
+	                        	</a>
+	                        </div>
+							<div style="width: 50%;display: table-cell;">
+	                        	<a 
+	                        	href="https://play.google.com/store/apps/details?id=co.com.choky.snowball" target="_blank"> <img src="dist/images/playstore.png" alt="Google play" >
+	                        	</a>
+							</div>
+							</div>
+						</div>
+						<div class="mockup-container">
+							<div class="mockup-bg">
+								<img src="dist/images/iphone-hero-bg.svg" alt="iPhone illustration">
+							</div>
+							<img class="device-mockup" src="dist/images/iphone-hero2.png" alt="iPhone Hero">
+						</div>
+                    </div>
+                </div>
+            </section>
+
+			<section class="features-extended section">
+                <div class="features-extended-inner section-inner">
+					<div class="features-extended-wrap">
+						<div class="container">
+							<div class="feature-extended">
+								<div class="feature-extended-image">
+									<div class="mockup-bg">
+										<img src="dist/images/iphone-feature-bg-01.svg" alt="iPhone Feature 01 illustration">
+									</div>
+									<img class="device-mockup is-revealing" src="dist/images/iphone-feature-01.png" alt="iPhone Feature 01">
 								</div>
-								<div class="slide">
-									<img src="images/slide02.jpg" alt="" />
+								<div class="feature-extended-body is-revealing">
+									<h3 class="mt-0 mb-16">Anonymous profile.</h3>
+									<h6 class="m-0">Create your profile, we only ask for your email and it's never showed.</h6>
 								</div>
-								<div class="slide">
-									<img src="images/slide03.jpg" alt="" />
+							</div>
+							<div class="feature-extended">
+								<div class="feature-extended-image">
+									<div class="mockup-bg">
+										<img src="dist/images/iphone-feature-bg-02.svg" alt="iPhone Feature 02 illustration">
+									</div>
+									<img class="device-mockup is-revealing" src="dist/images/iphone-feature-02.png" alt="iPhone Feature 02">
+								</div>
+								<div class="feature-extended-body is-revealing">
+									<h3 class="mt-0 mb-16">GPS enabled.</h3>
+									<h6 class="m-0">Locate snowballs around you or in your preferred locations.</h6>
+								</div>
+							</div>
+							<div class="feature-extended">
+								<div class="feature-extended-image">
+									<div class="mockup-bg">
+										<img src="dist/images/iphone-feature-bg-03.svg" alt="iPhone Feature 03 illustration">
+									</div>
+									<img class="device-mockup is-revealing" src="dist/images/iphone-feature-03.png" alt="iPhone Feature 03">
+								</div>
+								<div class="feature-extended-body is-revealing">
+									<h3 class="mt-0 mb-16">Keep informed.</h3>
+									<h6 class="m-0">See what's trending on our community.</h6>
+								</div>
+							</div>
+							<div class="feature-extended">
+								<div class="feature-extended-image">
+									<div class="mockup-bg">
+										<img src="dist/images/iphone-feature-bg-04.svg" alt="iPhone Feature 04 illustration">
+									</div>
+									<img class="device-mockup is-revealing" src="dist/images/iphone-feature-04.png" alt="iPhone Feature 04">
+								</div>
+								<div class="feature-extended-body is-revealing">
+									<h3 class="mt-0 mb-16">Use an review evidence.</h3>
+									<h6 class="m-0">Upload your own posts, use videos or images along with a precise description to show the veracity of your complaint and have full control of the publication.</h6>
 								</div>
 							</div>
 						</div>
-						<span class="nav-next"></span>
 					</div>
-				</div>
-			</section>
-			
-		<!-- Two -->
-			<section id="two" class="wrapper style2">
-				<div class="container">
-					<div class="row uniform">
-						<div class="4u 6u(2) 12u$(3)">
-							<section class="feature fa-briefcase">
-								<h3>Natoque phasellus</h3>
-								<p>Ipsum dolor tempus commodo amet sed accumsan et adipiscing blandit porttitor sed faucibus.</p>
-							</section>
-						</div>
-						<div class="4u 6u$(2) 12u$(3)">
-							<section class="feature fa-code">
-								<h3>Ultricies dolore</h3>
-								<p>Ipsum dolor tempus commodo amet sed accumsan et adipiscing blandit porttitor sed faucibus.</p>
-							</section>
-						</div>
-						<div class="4u$ 6u(2) 12u$(3)">
-							<section class="feature fa-save">
-								<h3>Magna lacinia</h3>
-								<p>Ipsum dolor tempus commodo amet sed accumsan et adipiscing blandit porttitor sed faucibus.</p>
-							</section>
-						</div>
-						<div class="4u 6u$(2) 12u$(3)">
-							<section class="feature fa-desktop">
-								<h3>Praesent lacinia</h3>
-								<p>Ipsum dolor tempus commodo amet sed accumsan et adipiscing blandit porttitor sed faucibus.</p>
-							</section>
-						</div>
-						<div class="4u 6u(2) 12u$(3)">
-							<section class="feature fa-camera-retro">
-								<h3>Morbi semper</h3>
-								<p>Ipsum dolor tempus commodo amet sed accumsan et adipiscing blandit porttitor sed faucibus.</p>
-							</section>
-						</div>
-						<div class="4u$ 6u$(2) 12u$(3)">
-							<section class="feature fa-cog">
-								<h3>Arcu consequat</h3>
-								<p>Ipsum dolor tempus commodo amet sed accumsan et adipiscing blandit porttitor sed faucibus.</p>
-							</section>
-						</div>
-					</div>
-				</div>
-			</section>
-			
-		<!-- Three -->
-			<section id="three" class="wrapper style1">
-				<div class="container">
-					<header class="major">
-						<h2>Amet nisl consequat</h2>
-						<p>Ipsum dolor tempus commodo turpis adipiscing adipiscing in tempor placerat<br />
-						sed amet accumsan enim lorem sem turpis ut. Massa amet erat accumsan curae<br />
-						blandit porttitor faucibus in nisl nisi volutpat massa mi non nascetur.</p>
-					</header>
-					<div class="row">
-						<div class="4u 6u(2) 12u$(3)">
-							<article class="box post">
-								<a href="#" class="image fit"><img src="images/pic01.jpg" alt="" /></a>
-								<h3>Sed amet lorem</h3>
-								<p>Ipsum dolor tempus et commodo lorem accumsan et adipiscing blandit porttitor feugiat tempus lorem faucibus.</p>
-								<ul class="actions">
-									<li><a href="#" class="button">Learn More</a></li>
-								</ul>
-							</article>
-						</div>
-						<div class="4u 6u$(2) 12u$(3)">
-							<article class="box post">
-								<a href="#" class="image fit"><img src="images/pic02.jpg" alt="" /></a>
-								<h3>Massa accumsan</h3>
-								<p>Ipsum dolor tempus et commodo lorem accumsan et adipiscing blandit porttitor feugiat tempus lorem faucibus.</p>
-								<ul class="actions">
-									<li><a href="#" class="button">Learn More</a></li>
-								</ul>
-							</article>
-						</div>
-						<div class="4u$ 6u(2) 12u$(3)">
-							<article class="box post">
-								<a href="#" class="image fit"><img src="images/pic03.jpg" alt="" /></a>
-								<h3>Faucibus portitor</h3>
-								<p>Ipsum dolor tempus et commodo lorem accumsan et adipiscing blandit porttitor feugiat tempus lorem faucibus.</p>
-								<ul class="actions">
-									<li><a href="#" class="button">Learn More</a></li>
-								</ul>
-							</article>
-						</div>
-						<div class="4u 6u$(2) 12u$(3)">
-							<article class="box post">
-								<a href="#" class="image fit"><img src="images/pic04.jpg" alt="" /></a>
-								<h3>Non placerat</h3>
-								<p>Ipsum dolor tempus et commodo lorem accumsan et adipiscing blandit porttitor feugiat tempus lorem faucibus.</p>
-								<ul class="actions">
-									<li><a href="#" class="button">Learn More</a></li>
-								</ul>
-							</article>
-						</div>
-						<div class="4u 6u(2) 12u$(3)">
-							<article class="box post">
-								<a href="#" class="image fit"><img src="images/pic05.jpg" alt="" /></a>
-								<h3>Adipiscing dolor</h3>
-								<p>Ipsum dolor tempus et commodo lorem accumsan et adipiscing blandit porttitor feugiat tempus lorem faucibus.</p>
-								<ul class="actions">
-									<li><a href="#" class="button">Learn More</a></li>
-								</ul>
-							</article>
-						</div>
-						<div class="4u$ 6u$(2) 12u$(3)">
-							<article class="box post">
-								<a href="#" class="image fit"><img src="images/pic06.jpg" alt="" /></a>
-								<h3>Feugiat tempus</h3>
-								<p>Ipsum dolor tempus et commodo lorem accumsan et adipiscing blandit porttitor feugiat tempus lorem faucibus.</p>
-								<ul class="actions">
-									<li><a href="#" class="button">Learn More</a></li>
-								</ul>
-							</article>
-						</div>
-					</div>
-				</div>
-			</section>
-			
-		<!-- CTA -->
-			<section id="cta" class="wrapper style3">
-				<h2>Sed faucibus et consequat</h2>
-				<ul class="actions">
-					<li><a href="#" class="button big">Get Started</a></li>
-				</ul>
-			</section>
-			
-		<!-- Footer -->
-			<footer id="footer">
-				<ul class="icons">
-					<li><a href="#" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
-					<li><a href="#" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
-					<li><a href="#" class="icon fa-instagram"><span class="label">Instagram</span></a></li>
-					<li><a href="#" class="icon fa-dribbble"><span class="label">Dribbble</span></a></li>
-					<li><a href="#" class="icon fa-envelope"><span class="label">Envelope</span></a></li>
-				</ul>
-				<ul class="menu">
-					<li><a href="#">FAQ</a></li>
-					<li><a href="terms.html">Terms of Use</a></li>
-					<li><a href="privacy.html">Privacy</a></li>
-					<li><a href="#">Contact</a></li>
-				</ul>
-				<span class="copyright">
-					&copy; Copyright.</a>
-				</span>
-			</footer>
+                </div>
+            </section>
+        </main>
 
-	</body>
+		<footer class="site-footer">
+			<div class="footer-particles-container">
+				<canvas id="footer-particles"></canvas>
+			</div>
+			<div class="site-footer-top">
+				<section class="cta section text-light">
+					<div class="container-sm">
+						<div class="cta-inner section-inner">
+							<div class="cta-header text-center">
+								<h2 class="section-title mt-0">Stay in the know</h2>
+								<p class="section-paragraph">Download the app and keep up to date with our latest release.</p>
+								<div style="width: 100%; display: table;">
+
+	                        
+	                        <div style="display: table-row">
+	                        	<div style="width: 50.5%; display: table-cell;">
+	                        	<a 
+	                        	href="https://apps.apple.com/us/app/snowball-app/id1489651612" target="_blank"> <img src="dist/images/appstore.png" alt="iPhone store" >
+	                        	</a>
+	                        </div>
+							<div style="width: 50%;display: table-cell;">
+	                        	<a 
+	                        	href="https://play.google.com/store/apps/details?id=co.com.choky.snowball" target="_blank"> <img src="dist/images/playstore.png" alt="Google play" >
+	                        	</a>
+							</div>
+							</div>
+						</div>
+						</div>
+					</div>
+				</section>
+			</div>
+			<div class="site-footer-bottom">
+				<div class="container">
+					<div class="site-footer-inner">
+						<div class="brand footer-brand">
+							<a href="#">
+								<img src="dist/images/logo.png" alt="Logo" width="10%">
+							</a>
+						</div>
+						<ul class="footer-links list-reset">
+							<li>
+								<a href="#">Contact</a>
+							</li>
+							<li>
+								<a href="#">About us</a>
+							</li>
+							<li>
+								<a href="#">FAQ's</a>
+							</li>
+							<li>
+								<a href="#">Support</a>
+							</li>
+						</ul>
+						<ul class="footer-social-links list-reset">
+							<li>
+								<a href="https://www.facebook.com/Snowball.Page/" target="_blank">
+									<span class="screen-reader-text">Facebook</span>
+									<svg width="16" height="16" xmlns="http://www.w3.org/2000/svg">
+										<path d="M6.023 16L6 9H3V6h3V4c0-2.7 1.672-4 4.08-4 1.153 0 2.144.086 2.433.124v2.821h-1.67c-1.31 0-1.563.623-1.563 1.536V6H13l-1 3H9.28v7H6.023z" fill="#FFF"/>
+									</svg>
+								</a>
+							</li>
+							<li>
+								<a href="https://mobile.twitter.com/Snowball_App_" target="_blank">
+									<span class="screen-reader-text">Twitter</span>
+									<svg width="16" height="16" xmlns="http://www.w3.org/2000/svg">
+										<path d="M16 3c-.6.3-1.2.4-1.9.5.7-.4 1.2-1 1.4-1.8-.6.4-1.3.6-2.1.8-.6-.6-1.5-1-2.4-1-1.7 0-3.2 1.5-3.2 3.3 0 .3 0 .5.1.7-2.7-.1-5.2-1.4-6.8-3.4-.3.5-.4 1-.4 1.7 0 1.1.6 2.1 1.5 2.7-.5 0-1-.2-1.5-.4C.7 7.7 1.8 9 3.3 9.3c-.3.1-.6.1-.9.1-.2 0-.4 0-.6-.1.4 1.3 1.6 2.3 3.1 2.3-1.1.9-2.5 1.4-4.1 1.4H0c1.5.9 3.2 1.5 5 1.5 6 0 9.3-5 9.3-9.3v-.4C15 4.3 15.6 3.7 16 3z" fill="#FFF"/>
+									</svg>
+								</a>
+							</li>
+							<li>
+								<a href="https://www.instagram.com/snowball_application/" target="_blank">
+									<span class="screen-reader-text">Instagram</span>
+									<svg width="16" height="16" xmlns="http://www.w3.org/2000/svg">
+										<path d="M8 12c-2.206 0-4-1.794-4-4s1.794-4 4-4 4 1.794 4 4-1.794 4-4 4zm0-6c-1.103 0-2 .897-2 2s.897 2 2 2 2-.897 2-2-.897-2-2-2z" fill="#FFF"/><path d="M12 16H4c-2.056 0-4-1.944-4-4V4c0-2.056 1.944-4 4-4h8c2.056 0 4 1.944 4 4v8c0 2.056-1.944 4-4 4zM4 2c-.935 0-2 1.065-2 2v8c0 .953 1.047 2 2 2h8c.935 0 2-1.065 2-2V4c0-.935-1.065-2-2-2H4z" fill="#FFF"/>
+									</svg>
+								</a>
+							</li>
+						</ul>
+						<div class="footer-copyright">&copy; 2020 Choky kun, all rights reserved</div>
+					</div>
+				</div>
+			</div>
+        </footer>
+    </div>
+
+    <script src="dist/js/main.min.js"></script>
+</body>
 </html>
